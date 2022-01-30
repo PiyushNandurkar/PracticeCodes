@@ -5,7 +5,11 @@ import java.util.Scanner;
 public class Addition {
 	
 	static void Add(int a, int b){
-		System.out.println("Total : "+(a+b));		
+		System.out.println("Addidtion : "+(a+b));		
+	}
+	
+	static void Sub(int a,int b){
+		System.out.println("Substraction : "+(a-b));
 	}
 	
 	public static void main(String[] args) {
@@ -16,6 +20,7 @@ public class Addition {
 		int y=sc.nextInt();
 		
 		Add(x,y);
+		Sub(x,y);
 	}
 
 }
